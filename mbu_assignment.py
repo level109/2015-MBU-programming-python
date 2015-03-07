@@ -34,8 +34,17 @@ def main():
 
     #This is for loop. We take each element from sys.argv and print it to the consile.
     for i in sys.argv[1:]:
+        a=int(i)
+
+        if a < 5:
+            print"Hello"
+        if a % 2 == 0:
+          print "even"  
+        else:
+            print "odd"
         print str(i)
         print "\n"
-
+    
 if __name__ == '__main__':
     main()
+    
